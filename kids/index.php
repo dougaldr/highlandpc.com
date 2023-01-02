@@ -24,8 +24,8 @@ require ('../start.inc');
     <td width="155" id="schmed">6:15-7:45 p.m.</td>
   </tr>
 </table>
-<p><br><br><a href="http://www.highlandpc.com/aboutus/awana.php" class="reg">Awana Club</a>
-<br><a href="http://www.highlandpc.com/aboutus/camp.php" class="reg">Camp Emmanuel</a></p>
+<p><br><br><a href="https://www.highlandpc.com/aboutus/awana.php" class="reg">Awana Club</a>
+<br><a href="https://www.highlandpc.com/aboutus/camp.php" class="reg">Camp Emmanuel</a></p>
 <!--
     <p><a href="../aboutus/awana.php" class="reg">Awana Youth Club</a></p>
     <p><a href="../aboutus/awanacal.pdf" target="offline" class="reg">Printable Version</a> (183 KB PDF)</p>

@@ -36,7 +36,7 @@ require ('../start.inc');
       <td valign="top" id="ythbld">Ed Vasicek</td>
     </tr>
     </table>
-<p><br><br><a href="http://www.highlandpc.com/aboutus/camp.php" class="reg">Camp Emmanuel</a></p>
+<p><br><br><a href="https://www.highlandpc.com/aboutus/camp.php" class="reg">Camp Emmanuel</a></p>
 </div>
 <div>
   <p align="left"><a name="wantedemail"><br></a>

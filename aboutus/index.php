@@ -34,7 +34,7 @@ require ('../start.inc');
       <br><a href="<?php print $mellCmd; ?>" class="reg"><?php print $mellMe; ?></a></td>
     </tr>
   </table>
-    <p align="center"><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="http://www.highlandpc.com/images/logos/facebk.png" border=0></a> Find us on <a target="_blank" href="https://www.facebook.com/hpckokomo/" class="reg">Facebook</a>.</p>
+    <p align="center"><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="https://www.highlandpc.com/images/logos/facebk.png" border=0></a> Find us on <a target="_blank" href="https://www.facebook.com/hpckokomo/" class="reg">Facebook</a>.</p>
 <!--
 <a name="map2hpc">&nbsp;</a>
   <p align="center"><img border="0" src="../images/mapbb2.gif" width="262" height="312" alt="Map to HPC created by Barri Burtch"></p>

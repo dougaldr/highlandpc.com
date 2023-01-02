@@ -27,7 +27,7 @@ was time for Him to begin His ministry as a sage (rabbi) and train disciples and
 apostles who would lay the foundation of the church. When Jesus had just a few 
 disciples, He and His followers were invited to a wedding in Cana of Galilee.</p>
 <p>Up until this point, Jesus had worked no public miracles. Most 
-<a href="http://www.highlandpc.com/bb/" class="reg">Body Builder</a>
+<a href="https://www.highlandpc.com/bb/" class="reg">Body Builder</a>
 readers are familiar with the story in <b>John chapter 2</b>. During 
 the wedding reception, the host ran out of wine to serve the people. Let's pick 
 up the story with <b>verses 3-5</b> from the ESV, &quot;When the wine ran out, the mother of 
@@ -83,7 +83,7 @@ think Mary ever doubted that her Son was the Messiah, it does seem that she had
 her doubts about HOW He was trying to establish His Kingdom!</p>
 <p>Things got even stranger for Mary when her Son was taken by 
 His powerful enemies at night and illegally sentenced to die. Could Jesus 
-actually be crucified? Then she understood what Simeon's prophecy meant, &quot;…a 
+actually be crucified? Then she understood what Simeon's prophecy meant, &quot;ï¿½a 
 sword will pierce your own soul too&quot; (<b>Luke 2:35b</b>).</p>
 <p>As she watched the agony of her Son on the cross, we read: 
 &quot;When Jesus saw his mother and the disciple whom he loved standing nearby 

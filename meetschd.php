@@ -66,17 +66,17 @@ be using the ESV, but you are not limited to that version.</p>
 <p id="pgt"><a name="featuring2">Sunday Sermon Series:</a></p> 
 <p>
 
-          <br><b>May-June 2018&#8212;Paul’s Second Missionary Journey (Acts 15:36-18:22)</b>
-          <br><br><p>Paul began his second journey with a new, right-hand man, Silas.&nbsp;It wasn’t 
+          <br><b>May-June 2018&#8212;Paulï¿½s Second Missionary Journey (Acts 15:36-18:22)</b>
+          <br><br><p>Paul began his second journey with a new, right-hand man, Silas.&nbsp;It wasnï¿½t 
 long until Timothy joined the team as a leader in training.&nbsp;Beginning in Asia 
 Minor, the apostle was directed by God to head west rather than east.&nbsp;That 
 direction changed the course of history. The modern world would be very 
 different if Paul had gone East. Exorcisms, earthquakes, riots and fruitful 
 ministry, including important church plants, was the order of the day.&nbsp;Join us 
-as we examine the fascinating story of Paul’s Second Missionary Journey.</p>
+as we examine the fascinating story of Paulï¿½s Second Missionary Journey.</p>
 -->
 <div class="leftimg">
-  <p><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="http://www.highlandpc.com/images/logos/facebk.png" border=0></a>
+  <p><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="https://www.highlandpc.com/images/logos/facebk.png" border=0></a>
   Highland Park Church is located at <a href="aboutus/index.php#contact" class="reg">516 W Sycamore Street.</a> For more information, call 
   (765)452-1779, email
   <a href="<?php print $mellCmd; ?>" class=reg><?php print $mellMe; ?></a>, or

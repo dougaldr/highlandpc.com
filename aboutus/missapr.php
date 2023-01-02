@@ -42,15 +42,15 @@ require ('../start.inc');
 </div>
 <div class="lnklst">
 <ul>
-  <li><a href="http://www.highlandpc.com/aboutus/missions/aldridge.php" class="reg">Boone and Julie Aldridge</a>
-  <li><a href="http://www.highlandpc.com/aboutus/missions/anderson.php" class="reg">Doug and Sherri Anderson</a>
+  <li><a href="https://www.highlandpc.com/aboutus/missions/aldridge.php" class="reg">Boone and Julie Aldridge</a>
+  <li><a href="https://www.highlandpc.com/aboutus/missions/anderson.php" class="reg">Doug and Sherri Anderson</a>
   <li>Mary Lee Cummings
-  <li><a href="http://www.highlandpc.com/aboutus/missions/dawson.php" class="reg">Matt and Janet Dawson</a>
+  <li><a href="https://www.highlandpc.com/aboutus/missions/dawson.php" class="reg">Matt and Janet Dawson</a>
   <li>Rick and Mary Glover
   <li>Brice and Tammy Habegger
   <li>Joyce Rathbun
 <br><br>
-  <li><a href="http://www.highlandpc.com/aboutus/camp.php" class="reg">Camp Emmanuel</a>
+  <li><a href="https://www.highlandpc.com/aboutus/camp.php" class="reg">Camp Emmanuel</a>
   <li><a href="https://kokomorescuemission.org/" target="offline" class="reg">Kokomo Rescue Mission</a>
   <li><a href="https://odb.org/" target="offline" class="reg">Our Daily Bread Ministries</a>
   <li><a href="https://spanishworld.org/" target="offline" class="reg">Spanish World Ministries</a>

@@ -35,7 +35,7 @@ Read a little about the missionaries we support.<ul>
 Highland Park supports several organizations as part of our 
 "Great Commission Strategy."  To see a list of all 
 missionaries and organizations supported by our church, check out 
-<a href="http://www.highlandpc.com/aboutus/missmins.php" class="reg">Missionaries and Ministries Financial Support</a>.</p>
+<a href="https://www.highlandpc.com/aboutus/missmins.php" class="reg">Missionaries and Ministries Financial Support</a>.</p>
 </div>
 
 <?php

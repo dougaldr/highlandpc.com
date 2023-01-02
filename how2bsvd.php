@@ -100,7 +100,7 @@ decision. Contact us at <a href="<?php print $mellCmd; ?>" class=reg><?php print
      <tr>
       <td width="68%"></td>
       <td width="32%">God bless you,
-      <br><a href="<?php print $mellCmd; ?>"><img border="0" src="http://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a></td>
+      <br><a href="<?php print $mellCmd; ?>"><img border="0" src="https://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a></td>
      </tr>
     </table>
     <br>

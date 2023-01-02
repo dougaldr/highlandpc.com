@@ -10,7 +10,7 @@ require ('start.inc');
 <p>&nbsp;</p>
 
 <div align="center">
-<form method="get" action="http://www.highlandpc.com/cgi-bin/search/search.pl">
+<form method="get" action="https://www.highlandpc.com/cgi-bin/search/search.pl">
    <input name="Terms" id="fdse_TermsEx" />
    <input type="submit" value="Search" />
 </form>

@@ -54,7 +54,7 @@ ____________________________________________________________________</p>
 If there is a problem with the above, please communicate this to me promptly, 
 preferably through a note in the Pastor's Box (using this very form is ideal) or 
 through email<b>.  I always assume no news is good news.</b> If I do not hear 
-from you, I assume we’re good to go.</p>
+from you, I assume weï¿½re good to go.</p>
 <p class="redbld">Special Note to Service Planners</p>
 <p>
 Our service begins at 10:30 and ends at 11:45 a.m.  <b><u>Please allow me a 
@@ -76,7 +76,7 @@ occasions.). </p>
 11:42               Final song and dismissal</p>
 <p>
 Thank you so much.</p>
-<p><a href="<?php print $mellCmd; ?>"><img border="0" src="http://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a></p>
+<p><a href="<?php print $mellCmd; ?>"><img border="0" src="https://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a></p>
 <p><a href="<?php print $mellCmd; ?>"><?php print $mellMe; ?></a></p>  
 <p class="right">
 rev. 05/05</p>

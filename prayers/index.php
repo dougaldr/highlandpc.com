@@ -571,7 +571,7 @@ Lord will object. <nobr>~Pastor Ed</nobr><br>
 
 <div class="lnklst">
 <ul>
-  <li><a href="askheal.php" class="reg">Asking For God’s Healing Touch Upon Me</a>
+  <li><a href="askheal.php" class="reg">Asking For Godï¿½s Healing Touch Upon Me</a>
   <li><a href="awanasun.php" class="reg">AWANA Sunday</a>
   <li><a href="busybltz.php" class="reg">Bedtime Prayers for Busy, Blitzed Parents</a>
   <li><a href="b4meals.php" class="reg">Before Meals or Grace</a>
@@ -637,7 +637,7 @@ Lord will object. <nobr>~Pastor Ed</nobr><br>
 
 <p>Have these prayers been a blessing to you? If so, please pass the word on to 
 your friends: 
-<a href="http://www.highlandpc.com/prayers/" class="reg">http://www.highlandpc.com/prayers/</a>.</p>
+<a href="https://www.highlandpc.com/prayers/" class="reg">https://www.highlandpc.com/prayers/</a>.</p>
 
   <p>See also article entitled: 
 	<a href="../articles/growpray.php" class="reg">Worshiping God and 

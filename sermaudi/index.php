@@ -23,8 +23,8 @@ require ('../start.inc');
 
 <div class="lnklst">
 <ul>
-  <li><a href="http://www.highlandpc.com/sermaudi/forgvcnd.php" class="reg">Forgiveness Is Conditional</a> </li>
-  <li><a href="http://www.highlandpc.com/sermaudi/immutgod.php" class="reg">The Immutability of God</a> </li>  
+  <li><a href="https://www.highlandpc.com/sermaudi/forgvcnd.php" class="reg">Forgiveness Is Conditional</a> </li>
+  <li><a href="https://www.highlandpc.com/sermaudi/immutgod.php" class="reg">The Immutability of God</a> </li>  
 </ul>
 </div>
 <?php

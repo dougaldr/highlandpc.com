@@ -35,32 +35,32 @@ situation or level of risk is the same.
           <br><br>&nbsp;&nbsp;&nbsp;&nbsp; Please join us live or online. We welcome you.</span> 
 <!--
 <p>March 8-14, 2020
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Sun 8:30 a.m. — Early Service</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:30 a.m. — Sunday School</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp; 10:30 a.m. — Main Service</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6:30 p.m. — Bible Study</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mon 6 p.m. — Crafting Group</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Wed 6:15 p.m. — Awana and Bonfire Youth</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Thurs 1 p.m. — Ladies’ Bible Study</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7 p.m. Deacons’ Meeting</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Sat 10 a.m.  — Men’s Bible Study</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Sun 8:30 a.m. ï¿½ Early Service</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9:30 a.m. ï¿½ Sunday School</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp; 10:30 a.m. ï¿½ Main Service</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6:30 p.m. ï¿½ Bible Study</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mon 6 p.m. ï¿½ Crafting Group</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Wed 6:15 p.m. ï¿½ Awana and Bonfire Youth</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Thurs 1 p.m. ï¿½ Ladiesï¿½ Bible Study</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7 p.m. Deaconsï¿½ Meeting</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Sat 10 a.m.  ï¿½ Menï¿½s Bible Study</span></span> 
 
 <p>March 2020
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 15 10:30 a.m. — Gideon’s Presentation</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6:30 p.m. — Bible Study</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 17 7 p.m. — Nominating Committee</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 22 8:30 a.m. & 10:30 a.m. — Pastor Rod Ruberg, guest speaker</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6:30 p.m. — Bible Study</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 23 6 p.m. — Game Night</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 24 7 p.m. — Elders’ Meeting</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 28 10 a.m. — Men’s Bible Study</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 29 5:30 p.m. — Food Contest</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 15 10:30 a.m. ï¿½ Gideonï¿½s Presentation</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6:30 p.m. ï¿½ Bible Study</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 17 7 p.m. ï¿½ Nominating Committee</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 22 8:30 a.m. & 10:30 a.m. ï¿½ Pastor Rod Ruberg, guest speaker</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6:30 p.m. ï¿½ Bible Study</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 23 6 p.m. ï¿½ Game Night</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 24 7 p.m. ï¿½ Eldersï¿½ Meeting</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 28 10 a.m. ï¿½ Menï¿½s Bible Study</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Mar 29 5:30 p.m. ï¿½ Food Contest</span></span> 
 
           <p>Special Services
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Good Friday Communion Service — Apr 10, 6 p.m.</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Resurrection Sunday Services — Apr 12</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;8:30 a.m. — Shorter Early Service</span></span> 
-          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">10:30 a.m. — Main Morning Service</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Good Friday Communion Service ï¿½ Apr 10, 6 p.m.</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Resurrection Sunday Services ï¿½ Apr 12</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">&nbsp;&nbsp;8:30 a.m. ï¿½ Shorter Early Service</span></span> 
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">10:30 a.m. ï¿½ Main Morning Service</span></span> 
           
           <p>Sunday Sermon Series
           <br>&nbsp;&nbsp;&nbsp;&nbsp; <span class="blk"><span class="sm">Feb-Mar 2020</span></span> 
@@ -86,7 +86,7 @@ situation or level of risk is the same.
 
   <div class="ftr">
     <p>&nbsp;</p>
-    <p align="right"><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="http://www.highlandpc.com/images/logos/facebk.png" border=0></a></p>
+    <p align="right"><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="https://www.highlandpc.com/images/logos/facebk.png" border=0></a></p>
   </div>
 
 <?php

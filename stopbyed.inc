@@ -1,7 +1,7 @@
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
      <tr>
       <td width="68%"></td>
-      <td width="32%"><a href="<?php print $mellCmd; ?>"><img border="0" src="http://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a></td>
+      <td width="32%"><a href="<?php print $mellCmd; ?>"><img border="0" src="https://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a></td>
      </tr>
     </table>
     <br>

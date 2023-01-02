@@ -8,7 +8,7 @@ require ('../start.inc');
 <div>
 <p id="pgt">Awana Club at Highland Park Church</p>
 
-    <a href="http://www.awana.org/" target="offline"><img border="0" src="http://www.highlandpc.com/images/logos/awana.jpg" width="212" height="101" class="leftimg"></a>
+    <a href="http://www.awana.org/" target="offline"><img border="0" src="https://www.highlandpc.com/images/logos/awana.jpg" width="212" height="101" class="leftimg"></a>
 <!--
     <a href="http://www.awana.org/" target="offline"><img border="0" 
     src="../images/logos/awana.gif" width="150" height="128" class="leftimg"></a>
@@ -115,8 +115,8 @@ Attendance at Highland Park Church is not required for involvement.
 </div>
 
 <div>
-  <p><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="http://www.highlandpc.com/images/logos/facebk.png" border=0 class="leftimg"></a>
-  Highland Park Church is located at <a href="http://www.highlandpc.com/aboutus/index.php#contact" class="reg">516 W Sycamore Street.</a> For more information, call 
+  <p><a target="_blank" title="facebook follow" href="https://www.facebook.com/hpckokomo/"><img alt="HPC on Facebook" src="https://www.highlandpc.com/images/logos/facebk.png" border=0 class="leftimg"></a>
+  Highland Park Church is located at <a href="https://www.highlandpc.com/aboutus/index.php#contact" class="reg">516 W Sycamore Street.</a> For more information, call 
   (765)452-1779, email
   <a href="<?php print $mellCmd; ?>" class=reg><?php print $mellMe; ?></a>, or
   check out our Facebook page. </p>

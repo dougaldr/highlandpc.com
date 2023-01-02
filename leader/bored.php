@@ -39,7 +39,7 @@ exactly what you are looking for. </p>
       <td width="68%"></td>
       <td width="32%">
       God bless,
-      <br><a href="<?php print $mellCmd; ?>"><img border="0" src="http://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a>
+      <br><a href="<?php print $mellCmd; ?>"><img border="0" src="https://www.highlandpc.com/images/edsig.gif" width="109" height="35" alt="Pastor Ed"></a>
       <br>Old Time Radio fan</td>
      </tr>
     </table>
