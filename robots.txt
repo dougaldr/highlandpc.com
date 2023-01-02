@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /log/
+Disallow: /scripture/
+Disallow: /404error.htm
+Disallow: /500error.asp

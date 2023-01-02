@@ -1,0 +1,5 @@
+[DEFAULT]
+BASEURL=http://www.highlandpc.com/cgi-bin/search/search.pl?Mode=Admin
+[InternetShortcut]
+URL=http://www.highlandpc.com/cgi-bin/search/search.pl?Mode=Admin
+Modified=20C1543FA61EC401FD

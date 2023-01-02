@@ -1,0 +1,1303 @@
+<!--
+
+/* adapted code
+*/
+
+/* Columns Design 
+    adapted from http://www.redmelon.net/tstme/3cols2/noborder.htm
+    by Douglas Livingstone <douglas-tstme@redmelon.net>
+    under the Creative Commons license http://creativecommons.org/licenses/sa/1.0/
+*/
+
+/* Optional Code 
+*/
+
+body 
+  { color: #000;
+    font-size: 1em;
+    font-family: "Century Gothic", "Helvetica", "Berlin Sans FB", "MS Reference Sans Serif", sans-serif;
+<!--
+    font-family: "Verdana", "Berlin Sans FB", "Maiandra GD", "Trebuchet MS", "Lucida Sans", 
+    "MS Reference Sans Serif", "Verdana", "Gill Sans MT", "Zurich Ex BT", sans-serif;
+-->
+    text-align: justify;
+    background: #fff;
+  }
+body.popup 
+  { background: #666; 
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+  }
+p, dl, dt, dd
+  { padding: 0.5em; 
+    margin: 0; 
+    font-size: 1em; 
+  }
+h1 
+  { padding: 0.5em; 
+    margin: 0; 
+    font-size: 1.3em; 
+    font-weight: normal; 
+  }
+h2 
+  { padding: 0.5em; 
+    margin: 0; 
+    font-size: 1em; 
+    font-weight: bold; 
+  }
+li
+  { padding: 0.2em; 
+    margin: 0; 
+    font-size: 1em; 
+  }
+ul 
+  { padding-right: 1em; 
+    text-align: left; 
+    margin-bottom: 1em; 
+  }
+.norm 
+  { font-style: normal; 
+  }
+.outbox 
+  { padding: 1em; 
+    text-align: center; 
+  }
+.outbox a 
+  { display: block;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 1em;
+    margin: 0 auto;
+  }
+.outbox a:hover 
+  { border: 1px solid #000; 
+  }
+.wrapper 
+  { min-width: 400px; 
+  }
+          /* Always good to have on full width liquid CSS layouts, 
+             google "min-width IE" for JS solutions there */
+
+/* Setup (This all looks neater when it isn't put on display!) 
+*/
+
+.wrapper 
+  { width: 100%;               /* total width */
+  }      
+.outer 
+  { border-left-width: 100px;  /* left column width */
+	border-left-color: #fff;   /* left column colour */
+	
+	border-right-width: 150px; /* right column width */
+	border-right-color: #fff;  /* right column colour */
+	
+	background-color: #fff; /* center column colour */
+  }
+.colleft 
+  { background-color: #fff;    /* header and footer colours */
+    width: 100px;              /* left column width */
+	margin-left: -100px;       /* _negative_ left column width */
+  }
+.colright 
+  {	width: 149px;              /* right column width */
+	margin-right: -149px;      /* _negative_ right column width */
+  }
+.widetop 
+  { background-color: #fff;    /* header and footer colours */
+	width: 100%; position: relative; z-index: 13; 
+  }
+.widebtm 
+  { background-color: #fff;    /* header and footer colours */
+	width: 100%; position: relative; z-index: 13;
+  }
+
+/* Main code 
+*/
+
+.outer 
+  { width: auto; 
+    border-left-style: solid; 
+    border-right-style: solid; 
+  }
+.inner 
+  { margin: 0; 
+    width: 100%; 
+  }
+.colleft 
+  { float: left; 
+    position: relative; 
+    z-index: 10; 
+  }
+.colright 
+  { float: left; 
+    position: relative; 
+    z-index: 11; 
+  }
+.colmid 
+  { float: left; 
+    width: 100%; 
+    position: relative; 
+    z-index: 12; 
+  }
+.clear 
+  { clear: both; 
+  }
+  
+
+.drpbtn {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.drpdwn {
+  position: relative;
+  display: inline-block;
+}
+
+.drpdwn-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: right;
+}
+
+.drpdwn-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drpdwn-content a:hover {background-color: #eaecee;}
+.drpdwn:hover .drpdwn-content {display: block;}
+.drpdwn:hover .drpbtn {background-color: #eaecee;}
+
+/* Mozilla code 
+*/
+
+.outer > .inner 
+  { border-bottom: 1px solid transparent; 
+  }
+.colleft 
+  { margin-right: 1px; 
+  }
+.colright 
+  { margin-left: 1px; 
+  }
+.colright p 
+  { padding-left: 10px; 
+  }
+.colmid 
+  { margin: 0 -8px 0 -2px; 
+  }
+
+/* end Columns Design 
+*/
+
+/* Confetti Menu 
+    adapted from http://www.w3.org/Style/map.css
+    by Bert Bos <bert@w3.org> (Adapted from work by Hakon Wium Lie)
+    also from http://www.ficml.org/jemimap/style/jp_tab.css
+    by Jemima Pereira <webmaster@jemimap.cjb.net> with permission
+    (Love those hover sidebars and cool fonts!)
+*/
+
+#pk1, #pk2, #pk3, #pk4, #pk5, #pk6, 
+#pk7, #pk8, #pk9, #pk10, #pk11, #pk12 {white-space: nowrap}
+
+#pk1, #pk2, #pk3, #pk4, #pk5, #pk6, 
+#pk7, #pk8, #pk9, #pk10, #pk11, #pk12, #pk13 {text-indent: 0}
+
+#pk1 a, #pk2 a, #pk3 a, #pk4 a, #pk5 a, #pk6 a, 
+#pk7 a, #pk8 a, #pk9 a, #pk10 a, #pk11 a, #pk12 a, #pk13 a {text-decoration: none;
+     padding: 3px;}
+       	      	     	     	     
+#pk1 a:hover, #pk2 a:hover, #pk3 a:hover, #pk4 a:hover, #pk5 a:hover, #pk6 a:hover, 
+#pk7 a:hover, #pk8 a:hover, #pk9 a:hover, #pk10 a:hover, #pk11 a:hover, #pk12 a:hover, #pk13 a:hover {padding: 1px;
+border: 2px dotted #a86;}
+
+#pk1, #pk1 a {color: #f90; 
+	   font: 35px/1 "Impact", "Helvetica Narrow", sans-serif}
+#pk2, #pk2 a {color: #0f0;
+	   font: 20px/1 "Stargate", "Palatino", "Georgia", serif}
+#pk3, #pk3 a {color: #09c; 
+	   font: bold italic 22px/1 "Skia", "Gill Sans", "Optima", "Helvetica", sans-serif}
+#pk4, #pk4 a {color: #cf0;
+	   font: bold 28px/1 "Didot", "Georgia", "Times New Roman", serif}
+#pk5, #pk5 a {color: #009; 
+   	   font: bold 34px/1 "Futura", "Skia", "Trebuchet MS", "Verdana", sans-serif}
+#pk6, #pk6 a {color: #930; 
+   	   font: bold 25px/1 "Courier New", "Courier", monospace}
+#pk7, #pk7 a {color: #a98;
+   	   font: bold 24px/1 "American Typewriter", Andale, Monaco, monospace;}
+#pk8, #pk8 a {color: #f00; 
+ 	   font: bold 28px/1 "Final Frontier", "Verdana", sans-serif}
+#pk9, #pk9 a {color: #360;
+	   font: 35px/1 "Sand", "Papyrus", fantasy}
+#pk10, #pk10 a {color: #f6c;
+	   font: 24px/1 "Apple Chancery", "Zapf-Chancery", cursive}
+#pk11, #pk11 a {color: #c51; 
+	     font: bold 24px/1 "Zapfino", "Comic Sans MS", cursive}
+#pk12, #pk12 a {color: #000;
+	   font: 35px/1 "Sand", "Papyrus", fantasy}
+#pk13, #pk13 a { color: #060; 
+    font-size: 1.1em;
+    font-family: "Impact", "Helvetica Narrow", "Helvetica", "Arial", sans-serif;
+  }
+
+/* end of Confetti Menu
+*/
+
+/* end of adapted code
+*/
+
+a.miss:link
+  { color: #660;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+a.miss:visited 
+  { color: #000;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+a.miss:active, a.miss:hover
+  { color: #939;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+a.pop:link 
+  { color: #96f;
+    font-size: 1em;
+    font-weight: bold;
+	text-decoration: none;
+  }
+a.pop:visited, a.pop:active, a.pop:hover
+  { color: #c9f;
+    font-size: 1em;
+    font-weight: bold;
+	text-decoration: none;
+  }
+a.reg, a.reg:link
+  { color: #96f;
+    font-size: 1em;
+    font-weight: bold;
+	text-decoration: none;
+  }
+a.reg:visited 
+  { color: #606;
+    font-size: 1em;
+    font-weight: bold;
+	text-decoration: none;
+  }
+a.reg:active, a.reg:hover
+  { color: #f00;
+    font-size: 1em;
+    font-weight: bold;
+	text-decoration: underline;
+  }
+a.royroll 
+  { color: #000;
+    text-decoration: none;
+  }
+ol.deci
+  { list-style-type: decimal; 
+  }
+ol.rome
+  { list-style-type: upper-roman; 
+  }
+table.attn
+  { table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color: #c00;
+    font-size: 1em;
+    font-weight: bold;
+  }
+table.attn2
+  { table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #c00;
+    font-size: 1em;
+  }
+table.missions
+  { border-spacing: 10px 7px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+table.missions td
+  { vertical-align: top;
+  }
+table.rollmenu 
+  { border: 0px none #fff;
+	border-collapse: collapse;
+	background-color: #fff;
+  }
+table.rollmenu td 
+  { border: 0px none #fff;
+    padding: 4px;
+  }
+table.roygbiv
+  { table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+table.roygbiv th
+  { color: #000;
+    font-size: 1em; 
+    font-weight: bold;
+    font-family: "Berlin Sans FB Demi", "AvantGarde Bk BT", "Tw Cen MT Condensed", 
+    "Agency FB", "Trebuchet MS", "Myriad Condensed Web", "Maiandra GD", "Arial", 
+    "Helvetica Narrow", "Helvetica", sans-serif;
+    text-decoration: none;
+    text-align: center;
+  }
+table.sidebar
+  { table-layout: fixed;
+    width: 40%;
+    border: 1px solid black;
+    margin: 10px; 
+    border-spacing: 2px;
+    border-collapse: separate; 
+  }
+table.sidebar td
+  { font-size: 1em; 
+    font-weight: bold;
+    color: #fff;
+	background-color: #999;
+  }
+table.sidebar th
+  { color: #fff;
+    font-size: 1em; 
+    font-weight: bold;
+    text-align: center;
+	background-color: #666;
+  }
+table.sides
+  { table-layout: fixed;
+    width: 60%;
+    border: 1px solid black;
+    margin: 10px; 
+    border-spacing: 2px;
+    border-collapse: separate; 
+  }
+table.sides td
+  { font-size: 1em; 
+    color: #000;
+	background-color: #fff;
+  }
+td.txthd 
+  { color: #000;
+    font-size: 1em;
+    font-weight: bold;
+  }
+th.royclr, td.royclr 
+  { border: 4px solid white; 
+	background: white;
+  }
+th.royaqu
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+    background: aqua;
+	padding: 0.2em;
+  }
+th.royaquhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+    background: #9ff;
+	padding: 0.2em;
+  }
+td.royaqu
+  { border: 4px solid white; 
+    border-bottom-color: aqua;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+	text-align: left;
+  }
+th.roybgr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #399;
+	padding: 0.2em;
+  }
+th.roybgrhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #3cc;
+	padding: 0.2em;
+  }
+td.roybgr
+  { border: 4px solid white; 
+    border-bottom-color: #399;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.royblu
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #39f;
+	padding: 0.2em;
+	text-decoration: none;
+  }
+th.roybluhvr 
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+    background: #9cf;
+	padding: 0.2em;
+	text-decoration: none;
+  }
+td.royblu
+  { border: 4px solid white; 
+    border-bottom-color: #39f;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.roybrn
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #963;
+	padding: 0.2em;
+  }
+th.roybrnhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #c93;
+	padding: 0.2em;
+  }
+td.roybrn
+  { border: 4px solid white; 
+    border-bottom-color: #963;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.royfus
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: fuchsia;
+	padding: 0.2em;
+  }
+th.royfushvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #f6f;
+	padding: 0.2em;
+  }
+td.royfus 
+  { border: 4px solid white; 
+    border-bottom-color: fuchsia;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+	text-align: left;
+  }
+th.roygrn
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #6c0;
+	padding: 0.2em;
+  }
+th.roygrnhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #6f3;
+	padding: 0.2em;
+  }
+td.roygrn
+  { border: 4px solid white; 
+    border-bottom-color: #6c0;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.roygry 
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #ccc;
+	padding: 0.2em;
+  }
+th.roygryhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #ccf;
+	padding: 0.2em;
+  }
+td.roygry
+  { border: 4px solid white; 
+    border-bottom-color: #ccc;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.roylim
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #cf0;
+	padding: 0.2em;
+  }
+th.roylimhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #cf6;
+	padding: 0.2em;
+  }
+td.roylim
+  { border: 4px solid white; 
+    border-bottom-color: #cf0;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.roymrn
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #c00;
+	padding: 0.2em;
+  }
+th.roymrnhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #c66;
+	padding: 0.2em;
+  }
+td.roymrn 
+  { border: 4px solid white; 
+    border-bottom-color: #c00;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.royorg
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #f60;
+	padding: 0.2em;
+  }
+th.royorghvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #f90;
+	padding: 0.2em;
+  }
+td.royorg 
+  { border: 4px solid white; 
+    border-bottom-color: #f60;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.roypnk
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #f99;
+	padding: 0.2em;
+  }
+th.roypnkhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #fcc;
+	padding: 0.2em;
+  }
+td.roypnk 
+  { border: 4px solid white; 
+    border-bottom-color: #f99;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.roypur
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #90c;
+	padding: 0.2em;
+  }
+th.roypurhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #c6c;
+	padding: 0.2em;
+  }
+td.roypur
+  { border: 4px solid white; 
+    border-bottom-color: #90c;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.roypwk
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #c9f;
+	padding: 0.2em;
+  }
+th.roypwkhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #fcf;
+	padding: 0.2em;
+  }
+td.roypwk
+  { border: 4px solid white; 
+    border-bottom-color: #c9f;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.royred 
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: red;
+	padding: 0.2em;
+  }
+th.royredhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #f66;
+	padding: 0.2em;
+  }
+td.royred 
+  { border: 4px solid white; 
+    border-bottom-color: red;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+th.royylw
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: yellow;
+	padding: 0.2em;
+  }
+th.royylwhvr
+  { width: 45%;
+    border: 4px solid white; 
+    border-bottom-color: black;
+	background: #ff9;
+	padding: 0.2em;
+  }
+td.royylw 
+  { border: 4px solid white; 
+    border-bottom-color: yellow;
+	background: white;
+	padding: 0.2em;
+	vertical-align: top;
+  }
+
+.art
+  { font-size: 0.8em;
+  }
+.bighpc 
+  { font-size: 1.7em;
+  }
+.biggreen
+  { color: #060;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+.biggergreen
+  { color: #060;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+.bigitalic
+  { font-size: 1.2em;
+    font-style: italic;
+  }
+.bigred
+  { color: red;
+    font-size: 3.0em;
+    font-weight: bold;
+  }
+.blk
+  { color: #000;
+    font-size: 1em;
+  }
+.blkbld
+  { color: #000;
+    font-size: 1em;
+    font-weight: bold;
+  }
+.blksm
+  { color: #000;
+    font-size: 0.8em;
+  }
+.boldblue
+  { color: #00f;
+    font-size: 1em;
+    font-weight: bold;
+  }
+.boldgreen
+  { color: #0f0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+.boldorange
+  { color: #f90;
+    font-size: 1em;
+    font-weight: bold;
+  }
+.boldpurple
+  { color: #808;
+    font-size: 1em;
+    font-weight: bold;
+  }
+.boldred
+  { color: #f00;
+    font-size: 1em;
+    font-weight: bold;
+  }
+.byln
+  { color: #666;
+    font-size: 0.8em;
+  }
+.capbtm
+  {
+    font-size: 0.9em;
+    font-weight: bold;
+  }  
+.ctr
+  { color: #000;
+    font-size: 1.0em;
+    text-align: center;
+  }
+.footer
+  { font-size: 0.8em;
+  }
+.ftr, .ftr td 
+  { font-size: 0.8em;
+  }
+.ftr a 
+  { color: #606;
+    font-size: 0.8em;
+	text-decoration: none;
+  }
+.ftr a:link 
+  { color: #606;
+    font-size: 0.8em;
+	text-decoration: none;
+  }
+.ftr a:visited 
+  { color: #606;
+    font-size: 0.8em;
+	text-decoration: none;
+  }
+.ftr a:active 
+  { color: #f00;
+    font-size: 0.8em;
+	text-decoration: underline;
+  }
+.ftr a:hover 
+  { color: #f00;
+    font-size: 0.8em;
+	text-decoration: underline;
+  }
+.leftimg
+  { float: left; 
+    margin: 10px; 
+  }
+ul.lnklst 
+  { margin-left: 5%;
+    margin-right: 5%;
+  }
+.lnklst 
+  { margin-left: 5%;
+    margin-right: 5%;
+  }
+.moyr 
+  { color: #f00;
+    font-size: 0.8em;
+  }
+.pgh 
+  { color: #666;
+    font-size: 0.8em;
+  }
+.redbld
+  { color: #f00;
+    font-size: .6em;
+    font-weight: bold;
+  }
+.right 
+  { float: right;
+  }
+.schsm 
+  { font-size: 0.9em;
+    font-weight: normal;
+  }
+.sctn
+  { font-size: 1.4em;
+    text-align: left;
+  }
+.sctnh
+  { color: #390;
+    font-size: 1.8em;
+    font-family: "Trebuchet MS", "Papyrus", "Helvetica", "Arial", "Helvetica Narrow", "Helvetica", "Verdana", sans-serif;
+  }    
+.sctnv
+  { font-size: 1.4em;
+    font-weight: bold;
+  }
+.sm 
+  { font-size: 0.8em;
+  }
+.blk
+  { color: #000
+  }
+.tenyr 
+  { color: #c00;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: "Berlin Sans FB Demi", "AvantGarde Bk BT", "Tw Cen MT Condensed", 
+    "Agency FB", "Trebuchet MS", "Myriad Condensed Web", "Maiandra GD", "Arial", 
+    "Helvetica Narrow", "Helvetica", sans-serif;
+  }
+.tablecap
+  { background: #660;
+    color: #fff;
+	padding: 0.4em;
+  }
+.tabledk 
+  { background: #cc9;
+  	padding: 0.4em;
+  	vertical-align: top;
+  }
+.tablelt 
+  { background: #ffc;
+	padding: 0.4em;
+	vertical-align: top;
+  }
+.tabletop
+  { background: #000;
+    color: #fff;
+	padding: 0.4em;
+  }
+.undline
+  {
+	text-decoration: underline;
+  }
+#anc 
+  { color: #808000;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+#missdk 
+  { background: #cc9;
+  }
+#misslt 
+  { background: #ffc;
+  }
+#msn, #msn td
+  { font-size: 0.9em;
+  }
+#pgt
+  { color: #000;
+    font-size: 1.5em;
+    font-family: "Trebuchet MS", "Papyrus", "Helvetica", "Arial", "Helvetica Narrow", "Helvetica", "Verdana", sans-serif;
+<!--    
+    font-family: "Berlin Sans FB", "Maiandra GD", "Trebuchet MS", "Lucida Sans", 
+    "MS Reference Sans Serif", "Verdana", "Gill Sans MT", "Zurich Ex BT", sans-serif;
+-->
+    text-align: left;
+  }    
+#schdk 
+  { background: #cc9;
+  }
+#schkdk 
+  { background: #cf6;
+  }
+#schklt 
+  { background: #ff6;
+  }
+#schlg
+  { font-size: 1.4em;
+    font-family: "Futura", "Skia", "Trebuchet MS", "Verdana", sans-serif;
+    font-weight: bold;
+  }
+#schlt 
+  { background: #ffc;
+  }
+#schmed
+  { font-size: 1em;
+    font-weight: bold;
+  }
+#schph
+  { font-size: 0.9em;
+    font-weight: bold;
+  }
+
+b.hl1
+  { font-size: 1em;
+    font-weight: bold;
+  }
+b.hl2
+  { font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+  }
+.sr
+  { font-size: 1em;
+    line-height: 150%;
+  }
+.submit 
+  { color: #000;
+    font-size: 1em;
+    font-weight: bold;
+	background: #fff;
+	cursor: pointer;
+  }
+input, textarea 
+  { font-size: 1em;
+  }
+  
+  
+  
+/* Youth CSS
+*/
+
+
+body.yth 
+  { color: #000;
+    font-size: 1em;
+    font-family: "Century Gothic", "Helvetica", "Berlin Sans FB", "MS Reference Sans Serif", sans-serif;
+    text-align: justify;
+    background: #fff;
+  }
+div.lnklsty
+  { font-size: 1em;
+    font-family: "Century Gothic", "Helvetica", "Berlin Sans FB", "MS Reference Sans Serif", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+table.linksy 
+  { border: thick double red;
+    border-spacing: 5px;
+	border-collapse: separate;
+	background-color: white;
+    margin-left: 5%;
+  }
+table.stopy 
+  { border: 1px none #fff;
+	border-collapse: collapse;
+	background-color: #fff;
+  }
+table.stopy td 
+  { border: thick solid #fff;
+  }
+.ythreg
+  { font-size: 1em;
+    font-weight: normal;
+    font-family: "Century Gothic", "Helvetica", "Berlin Sans FB", "MS Reference Sans Serif", sans-serif;
+  }
+#sctnr 
+  { color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: "Berlin Sans FB", "Maiandra GD", "Trebuchet MS", "Lucida Sans", 
+    "MS Reference Sans Serif", "Verdana", "Gill Sans MT", "Zurich Ex BT", sans-serif;
+  }
+#sctnb
+  { color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Berlin Sans FB", "Maiandra GD", "Trebuchet MS", "Lucida Sans", 
+    "MS Reference Sans Serif", "Verdana", "Gill Sans MT", "Zurich Ex BT", sans-serif;
+  }
+#ythbld
+  { font-size: 1em;
+    font-weight: bold;
+    font-family: "Century Gothic", "Helvetica", "Berlin Sans FB", "MS Reference Sans Serif", sans-serif;
+  }
+#ythbh 
+  { background: #005A94;
+  }
+#ythbdk 
+  { background: #5294B5;
+  }
+#ythblt 
+  { background: #52B59C;
+  }
+#ythgh 
+  { background: #0C0; 
+  }
+#ythgdk 
+  { background: #C6E784;
+  }
+#ythglt 
+  { background: #EFF7AD;
+  }
+
+  
+/* Confetti Menu 
+    adapted from http://www.w3.org/Style/map.css
+    by Bert Bos <bert@w3.org> (Adapted from work by Hakon Wium Lie)
+    also from http://www.ficml.org/jemimap/style/jp_tab.css
+    by Jemima Pereira <webmaster@jemimap.cjb.net> with permission
+    (Love those hover sidebars and cool fonts!)
+*/
+
+div.map 
+  { margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-bottom: 305px;
+    clear: both;
+/*    text-shadow: 0.2em 0.2em /* 0.2em */ #d29c80; 
+*/
+  }
+
+#py1, #py2, #py3, #py4, #py5, #py6, 
+#py7, #py8, #py9, #py10, #py11, #py12, #py13 
+  { white-space: nowrap;
+  }
+#py1, #py2, #py3, #py4, #py5, #py6, 
+#py7, #py8, #py9, #py10, #py11, #py12, #py13 
+  { text-indent: 0;
+  }
+#py1 a, #py2 a, #py3 a, #py4 a, #py5 a, #py6 a, 
+#py7 a, #py8 a, #py9 a, #py10 a, #py11 a, #py12 a, #py13 a 
+  { text-decoration: none;
+    padding: 3px;
+  }
+#py1 a:hover, #py2 a:hover, #py3 a:hover, #py4 a:hover, #py5 a:hover, #py6 a:hover, 
+#py7 a:hover, #py8 a:hover, #py9 a:hover, #py10 a:hover, #py11 a:hover, #py12 a:hover, #py13 a:hover 
+  { padding: 1px;
+    border: 2px dotted #30c;
+  }
+#py1, #py1 a 
+  { color: #000; 
+    font-size: 1.6em;
+    font-family: "Futura", "Skia", "Trebuchet MS", "Verdana", sans-serif;
+  }
+#py2, #py2 a 
+  { color: #909;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: "Palatino", "Georgia", serif;
+  }
+#py3, #py3 a 
+  { color: #b97;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: "Futura", "Skia", "Trebuchet MS", "Verdana", sans-serif;
+  }
+#py4, #py4 a 
+  { color: #f90;
+    font-size: 1.4em;
+    font-family: "Papyrus", fantasy;  
+  }
+#py5, #py5 a 
+  { color: #731; 
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: "American Typewriter", "Monaco", "Andale", monospace;
+  }
+#py6, #py6 a 
+  { color: #06c; 
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Futura", "Skia", "Trebuchet MS", "Verdana", sans-serif;
+  }
+#py7, #py7 a 
+  { color: #f00;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: "Papyrus", fantasy;
+  }
+#py8, #py8 a 
+  { color: #c30; 
+    font-size: 1.2em;
+    font-family: "Impact", "Helvetica Narrow", "Helvetica", "Arial", sans-serif;
+  }
+#py9, #py9 a  
+  { color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Papyrus", fantasy;
+  }
+#py10, #py10 a 
+  { color: #909; 
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: "American Typewriter", "Monaco", "Andale", monospace;
+  }
+#py11, #py11 a  
+  { color: #000;
+    font-size: 1.1em;
+    font-family: "Comic Sans MS", cursive;
+  }
+#py12, #py12 a 
+  { color: #f0f;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Papyrus", fantasy;
+  }
+#py13, #py13 a 
+  { color: #060; 
+    font-size: 1.1em;
+    font-family: "Impact", "Helvetica Narrow", "Helvetica", "Arial", sans-serif;
+  }
+#py1 
+  { text-align: left; 
+    margin: 0;
+    position: absolute; 
+    top: 220px; 
+    left: 150px;
+  }
+#py2 
+  { text-align: left;  
+    margin: 0;
+    position: absolute; 
+    top: 200px; 
+    left: 20%;
+  }	
+#py3 
+  { text-align: left; 
+    margin: 0; 
+    position: absolute; 
+    top: 475px; 
+    left: 65%;
+  }
+#py4 
+  { text-align: right; 
+    margin: 0;
+    position: absolute; 
+    top: 205px; 
+    right: 17%;
+  }
+#py5 
+  { text-align: left;  
+    margin: 0;
+    position: absolute; 
+    top: 165px; 
+    left: 375px;
+  }	
+#py6 
+  { text-align: right; 
+    margin: 0;
+    position: absolute; 
+    top: 325px; 
+    right: 18%;
+  }	
+#py7 
+  { text-align: right; 
+    margin: 0;
+    position: absolute; 
+    top: 255px; 
+    left: 25%;
+  }	
+#py8 
+  { text-align: right; 
+    margin: 0;
+    position: absolute; 
+    top: 410px; 
+    left: 33%;
+  }	
+#py9 
+  { text-align: left;  
+    margin: 0;
+    position: absolute; 
+    top: 290px; 
+    left: 120px;
+  }
+#py10 
+  { text-align: right; 
+    margin: 0;
+    position: absolute; 
+    top: 285px; 
+    right: 12%;
+  }
+#py11 
+  { text-align: left; 
+    margin: 0;
+    position: absolute; 
+    top: 500px; 
+    left: 185px;
+  }	
+#py12 
+  { text-align: left; 
+    margin: 0;
+    position: absolute; 
+    top: 370px; 
+    left: 150px;
+  }	
+#py13 
+  { text-align: left;  
+    margin: 0;
+    position: absolute; 
+    top: 245px; 
+    left: 40%;
+  }    
+  
+/* end Confetti Menu
+*/
+
+/* end Youth CSS
+*/
+
+/*
+11 0.8
+12 0.9
+14 1  
+15 1.1
+17 1.2
+19 1.4
+20 1.4
+23 1.6
+24 1.7
+25 1.8
+30 2.1
+35 2.5
+40 2.9
+50 3.6
+*/
+
+-->
